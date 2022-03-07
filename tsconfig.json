@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "sourceMap": true,
+    "experimentalDecorators": true
+  },
+  "include": [
+    "src/**/*",
+    "src/*",
+    "tests/*",
+    "tests/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "old"
+  ]
+}

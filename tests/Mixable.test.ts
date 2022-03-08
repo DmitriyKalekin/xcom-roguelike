@@ -1,4 +1,4 @@
-import {Mixable, IMixable} from "../src/mixins/Mixable";
+import {Mixable, IMixable} from "../src/framework/mixins/Mixable";
 import {AttrOwner1, AttrOwner2, Movable, Jumpable} from "./common";
 
 // interface Player1 extends Mixable, Movable, Jumpable {

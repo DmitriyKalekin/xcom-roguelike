@@ -1,18 +1,10 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
+    "allowSyntheticDefaultImports": true,
+//    "noImplicitAny": true,
+    "module": "es6",
     "target": "es5",
-    "sourceMap": true,
-    "experimentalDecorators": true
+    "allowJs": true
   },
-  "include": [
-    "src/**/*",
-    "src/*",
-    "tests/*",
-    "tests/**/*"
-  ],
-  "exclude": [
-    "node_modules",
-    "old"
-  ]
+  "files": ["src/index.ts"]
 }
